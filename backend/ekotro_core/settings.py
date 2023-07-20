@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'testTable',
 ]
 
 MIDDLEWARE = [
@@ -76,9 +77,9 @@ WSGI_APPLICATION = 'ekotro_core.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "mydatabase",
-        "USER": "mydatabaseuser",
-        "PASSWORD": "mypassword",
+        "NAME": "testing", #DB name
+        "USER": "tester",
+        "PASSWORD": "test123",
         "HOST": "127.0.0.1",
         "PORT": "5432",
     }
